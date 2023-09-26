@@ -42,7 +42,7 @@ if (isset($_POST['btntaghsim'])) {
                     <div class="form-group">
                         <input type="number" class="form-control" id="exampleInputPassword1" placeholder="num2" name="num2">
                     </div>
-                    <p class="text-center">حاصل محاسبه شما : <?php echo @$result;?></p>
+                    <p class="text-center">result: <?php echo @$result;?></p>
                     <button type="submit" class="btn btn-primary" name="btnjam">+</button>
                     <button type="submit" class="btn btn-danger" name="btntafrigh">-</button>
                     <button type="submit" class="btn btn-success" name="btnzarb">*</button>
